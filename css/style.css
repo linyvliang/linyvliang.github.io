@@ -46,7 +46,6 @@ body {
 
 .gallery div {
 	width: 20%;
-	height: 10%;
 	margin: 2%;
 	border: 2px solid #ccc;
 	background-color: #fff;
@@ -55,6 +54,7 @@ body {
 
 .gallery div img {
 	width: 100%;
+	height: auto;
 }
 
 .gallery div p {
@@ -63,7 +63,6 @@ body {
 }
 
 .footer {
-	clear: both;
 	width: 100%;
 	background-color: #aaa;
 	border-radius: 5px;
