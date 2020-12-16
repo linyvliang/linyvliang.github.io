@@ -1,0 +1,96 @@
+body {
+	background-color: #d0e4fe;
+}
+
+.header {
+	width: 100%;
+	background-color: #333;
+	border-radius: 10px;
+}
+
+.header p {
+	text-align: center;
+	color: #eee;
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 3px 3px 3px red;
+	margin: 0.5% 0;
+	animation: move 5s infinite;
+}
+
+@keyframes move {
+
+	0%,
+	100% {
+		transform: rotate3d(1, 1, 0, 20deg)
+	}
+
+	25% {
+		transform: rotate3d(1, -1, 0, 20deg)
+	}
+
+	50% {
+		transform: rotate3d(-1, -1, 0, 20deg)
+	}
+
+	75% {
+		transform: rotate3d(-1, 1, 0, 20deg)
+	}
+}
+
+.gallery {
+	width: 100%;
+	overflow: hidden;
+}
+
+.gallery div {
+	width: 20%;
+	margin: 2%;
+	border: 2px solid #ccc;
+	background-color: #fff;
+	float: left;
+}
+
+.gallery div img {
+	width: 100%;
+	height: auto;
+}
+
+.gallery div p {
+	text-align: center;
+	padding: 10px 5px;
+}
+
+.footer {
+	width: 100%;
+	background-color: #aaa;
+	border-radius: 5px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.link a {
+	display:block;
+}
+
+.greet {
+	position: fixed;
+	width: 150px;
+	bottom: 50px;
+	right: 50px;
+}
+
+.greet p {
+	font-size: 120%;
+	font-weight: bold;
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	transform: translate(-50%, -50%);
+}
+
+.greet img {
+	width: 100%;
+}
