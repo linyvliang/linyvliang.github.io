@@ -47,13 +47,13 @@ body {
 .gallery div {
 	width: 20%;
 	margin: 2%;
-	border: 1px solid #ccc;
+	border: 2px solid #ccc;
 	background-color: #fff;
 	float: left;
 }
 
 	.gallery div:hover{
-		border:1px solid #777
+		border:2px solid #555
 	}
 .gallery div img {
 	width: 100%;
